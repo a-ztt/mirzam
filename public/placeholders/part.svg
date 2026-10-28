@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="g" x1="20" y1="20" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="140" height="140" rx="20" fill="url(#g)"/>
+  <g opacity="0.9">
+    <path d="M80 38c2.6 0 5.1.2 7.5.7l3.3-10.5a63.7 63.7 0 0 1 13.6 5.7l-6.3 9a43.4 43.4 0 0 1 10.5 10.5l9-6.3a63.7 63.7 0 0 1 5.7 13.6l-10.5 3.3c.5 2.4.7 4.9.7 7.5s-.2 5.1-.7 7.5l10.5 3.3a63.7 63.7 0 0 1-5.7 13.6l-9-6.3a43.4 43.4 0 0 1-10.5 10.5l6.3 9a63.7 63.7 0 0 1-13.6 5.7l-3.3-10.5c-2.4.5-4.9.7-7.5.7s-5.1-.2-7.5-.7l-3.3 10.5a63.7 63.7 0 0 1-13.6-5.7l6.3-9a43.4 43.4 0 0 1-10.5-10.5l-9 6.3a63.7 63.7 0 0 1-5.7-13.6l10.5-3.3c-.5-2.4-.7-4.9-.7-7.5s.2-5.1.7-7.5l-10.5-3.3a63.7 63.7 0 0 1 5.7-13.6l9 6.3a43.4 43.4 0 0 1 10.5-10.5l-6.3-9a63.7 63.7 0 0 1 13.6-5.7l3.3 10.5c2.4-.5 4.9-.7 7.5-.7Z" fill="#0f172a" fill-opacity="0.06"/>
+    <circle cx="80" cy="80" r="26" fill="#0f172a" fill-opacity="0.08"/>
+    <circle cx="80" cy="80" r="12" fill="#0f172a" fill-opacity="0.10"/>
+  </g>
+</svg>

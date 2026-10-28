@@ -1,0 +1,67 @@
+# env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# dependencies
+node_modules/
+
+# next / build output
+.next/
+out/
+build/
+dist/
+.vercel/
+coverage/
+
+# uploads (user content)
+/uploads/
+
+# databases (sqlite, prod snapshots, backups)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.db.bak-*
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# business data: price lists and Excel imports
+/data/import/
+*.xlsx
+*.xls
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# temp files
+*.tmp
+*.bak
+*~
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.vscode/
+.idea/
+.claude/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Local audit artifacts (генерируются скриптами, не нужны в git)
+# Сами scripts/ оставляем — их полезно сохранить для будущих ре-аудитов.
+/data/audit/*.csv
+/data/audit/*.sql
+# DEPLOY.md в data/audit/ оставляем — он часть документации.
+!/data/audit/DEPLOY.md
